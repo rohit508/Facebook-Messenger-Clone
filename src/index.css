@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app_form{
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: rgb(240, 240, 240);
+  width: 95%;
+  margin: 20px;
+}
+
+.App_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.App__input{
+  flex: 20;
+}
+.app__iconButton{
+  flex: 2  !important;
+}
+
+
